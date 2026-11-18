@@ -1,0 +1,15 @@
+file,status,max_abs_difference
+baseline_improvement_correlations.csv,match,1.4210854715202004e-14
+front_back_anova.csv,match,1.3322676295501878e-14
+front_back_contrasts.csv,match,5.551115123125783e-17
+front_back_descriptives.csv,match,0.0
+front_back_h3_contrast.csv,match,1.0408340855860843e-16
+front_back_participant_means.csv,match,0.0
+optimised_configuration_contrasts.csv,match,0.0
+predicted_srm_descriptives.csv,match,0.0
+predicted_srm_gee_coefficients.csv,match,8.43769498715119e-15
+srm_accuracy_descriptives.csv,match,0.0
+srm_accuracy_participant_means.csv,match,0.0
+srm_anova.csv,match,1.7763568394002505e-14
+srm_h4_contrasts.csv,match,3.3306690738754696e-16
+srm_participant_means.csv,match,0.0

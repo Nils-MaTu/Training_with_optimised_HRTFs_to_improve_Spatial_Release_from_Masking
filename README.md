@@ -1,6 +1,8 @@
 # Training with optimised HRTFs to improve Spatial Release from Masking
 
-Standalone reproduction package for the statistical results, figures, and optimised KEMAR HRTF reported in the manuscript.
+Reproduction package for the statistical results, figures, and optimised KEMAR HRTF reported in the manuscript.
+
+The analyses and figures for the final revision are in `final_reproducibility/`. The top-level `analysis.py` and `plots.py` are retained to document the original submission and should not be used as the description of the revised analysis.
 
 ## Run
 
@@ -14,11 +16,8 @@ python3 -m pip install -r requirements.txt
 # 1. Generate the optimised KEMAR HRTF
 python3 optimisation/optimise_hrtf.py
 
-# 2. Reproduce the manuscript statistics
-python3 analysis.py
-
-# 3. Reproduce the five manuscript figures
-python3 plots.py
+# 2. Reproduce the final revised analyses and figures
+python3 final_reproducibility/reproduce.py
 ```
 
 Outputs are written below `outputs/`. The HRTF optimisation is the original full-horizontal-plane PCA/gradient-descent procedure used for the experiment; only its machine-specific paths were made portable. It should increase mean modelled front--back SRM from approximately 1.36 to 7.91 dB. Small floating-point differences can occur across CPU, CUDA, and Apple Metal backends.
@@ -27,8 +26,8 @@ Outputs are written below `outputs/`. The HRTF optimisation is the original full
 
 - `optimisation/optimise_hrtf.py` and `optimisation/lavandier2022.py`: HRTF optimisation and its differentiable SRM model.
 - `optimisation/KEMAR_*.sofa`: source KEMAR HRTF distributed under the CC BY-SA 3.0 licence recorded in its SOFA metadata.
-- `analysis.py`: repeated-measures ANOVAs, planned contrasts, participant-clustered binomial GEE, and baseline/improvement correlations.
-- `plots.py`: the five manuscript figures.
+- `final_reproducibility/`: final revision analyses, four reported figures, archived original analyses, anonymised analysis inputs, and numerical result tables.
+- `analysis.py` and `plots.py`: archived top-level scripts from the original submission.
 - `data/participants/sub-*/`: one anonymised CSV per participant and dataset (front--back trials, SRM trials, and better-ear SNR gains).
 - `data/hrtf_spectra_summary.npz`: compact group-level spectral summary required for Figure 1; no participant identifiers or HRTF impulse responses.
 - `highlights.tex`: journal highlights.

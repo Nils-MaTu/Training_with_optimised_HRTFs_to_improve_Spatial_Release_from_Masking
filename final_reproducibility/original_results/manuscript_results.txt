@@ -1,0 +1,26 @@
+Manuscript result check (N=18)
+
+FB HRTF x location: F(1,17)=16.76, p=0.0007565, partial eta^2=0.50
+FB session x HRTF: F(1,17)=4.65, p=0.04577, partial eta^2=0.21
+H2 contrast: mean difference=3.1 pp, t=0.80, p=0.435
+H3 contrast: mean difference=7.2 pp, t=2.16, p=0.04577
+Post-training optimised-individual: mean difference=10.3 pp, t=2.32, p=0.03295
+
+SRM HRTF: F(1,17)=16.69, p=0.0007709, partial eta^2=0.50
+SRM configuration: F(1,17)=63.74, p=3.752e-07, partial eta^2=0.79
+SRM session: F(1,17)=4.24, p=0.05522, partial eta^2=0.20
+SRM HRTF x configuration: F(1,17)=5.64, p=0.02961, partial eta^2=0.25
+SRM 3-way interaction: F(1,17)=6.63, p=0.01964, partial eta^2=0.28
+H4 T30M150: change=1.3 pp, t=0.34, Holm p=0.7406
+H4 T150M30: change=9.1 pp, t=3.38, Holm p=0.007053
+
+GEE predicted SRM: OR=1.38, 95% CI [1.18, 1.63], p=8.948e-05
+GEE separated: OR=1.66, 95% CI [1.36, 2.03], p=7.815e-07
+
+Optimised T150M30-T30M150 before: 4.6 pp, Wilcoxon p=0.09304
+Optimised T150M30-T30M150 after: 6.0 pp, Wilcoxon p=0.007143
+
+Baseline/improvement front-back, individual: rho=0.07, p=0.784, slope=-0.03
+Baseline/improvement front-back, optimised: r=-0.66, p=0.003071, slope=-0.78
+Baseline/improvement SRM, individual: r=0.02, p=0.938, slope=0.01
+Baseline/improvement SRM, optimised: r=-0.43, p=0.07602, slope=-0.14

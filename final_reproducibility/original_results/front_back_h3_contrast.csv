@@ -1,0 +1,2 @@
+contrast,mean_improvement_individual_pp,mean_improvement_optimised_pp,n,test,statistic,p_raw,mean_difference_pp,median_difference_pp,effect_size_name,effect_size,shapiro_W,shapiro_p
+H3: optimised improvement - individual improvement,-1.6666666666666667,5.555555555555555,18,paired t-test,2.155251524765507,0.045768549531098796,7.222222222222222,8.75,Cohen dz,0.5079976561081121,0.972148968664269,0.83699175121537

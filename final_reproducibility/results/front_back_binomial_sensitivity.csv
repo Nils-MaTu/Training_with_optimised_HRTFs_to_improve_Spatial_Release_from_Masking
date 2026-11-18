@@ -1,0 +1,2 @@
+contrast,estimate_pp,se_pp,t,p,ci_low_pp,ci_high_pp,clusters,covariance
+H3 probability-scale difference of changes,7.222222222222258,3.448138312758616,2.094527993699957,0.05150221314982628,-0.052713704559756436,14.497158149004271,18,Mancl-DeRouen bias-reduced; t17 reference
